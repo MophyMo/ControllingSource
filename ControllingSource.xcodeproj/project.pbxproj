@@ -63,13 +63,9 @@
 			children = (
 				F3FC052F1E285E75008BFB18 /* AppDelegate.h */,
 				F3FC05301E285E75008BFB18 /* AppDelegate.m */,
-				F3FC05321E285E75008BFB18 /* MasterViewController.h */,
-				F3FC05331E285E75008BFB18 /* MasterViewController.m */,
-				F3FC05351E285E75008BFB18 /* DetailViewController.h */,
-				F3FC05361E285E75008BFB18 /* DetailViewController.m */,
-				F3FC05381E285E75008BFB18 /* Main.storyboard */,
+				F3FC056C1E286371008BFB18 /* View Controllers */,
+				F3FC056D1E28638B008BFB18 /* Resources */,
 				F3FC053B1E285E75008BFB18 /* Assets.xcassets */,
-				F3FC053D1E285E75008BFB18 /* LaunchScreen.storyboard */,
 				F3FC05401E285E75008BFB18 /* Info.plist */,
 				F3FC052C1E285E75008BFB18 /* Supporting Files */,
 			);
@@ -82,6 +78,26 @@
 				F3FC052D1E285E75008BFB18 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3FC056C1E286371008BFB18 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC05321E285E75008BFB18 /* MasterViewController.h */,
+				F3FC05331E285E75008BFB18 /* MasterViewController.m */,
+				F3FC05351E285E75008BFB18 /* DetailViewController.h */,
+				F3FC05361E285E75008BFB18 /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F3FC056D1E28638B008BFB18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC053D1E285E75008BFB18 /* LaunchScreen.storyboard */,
+				F3FC05381E285E75008BFB18 /* Main.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +329,7 @@
 				F3FC05451E285E75008BFB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
